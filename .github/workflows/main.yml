@@ -3,7 +3,7 @@ name: Run it on action
 on:
   workflow_dispatch:
   schedule:
-    - cron: 20 21 * * 4
+    - cron: 20 12 * * *
 jobs:
   run-it:
     runs-on: ubuntu-latest
